@@ -45,7 +45,7 @@ client.tls_set(tls_version=mqtt.client.ssl.PROTOCOL_TLS)
 # set username and password
 client.username_pw_set("some_user", "some_Password1")
 # connect to HiveMQ Cloud on port 8883 (default for MQTT)
-client.connect("9bb1889fece44537aa25fa646c2c152b.s1.eu.hivemq.cloud", 8883)
+client.connect("", 8883)
 
 # setting callbacks, use separate functions like above for better visibility
 client.on_subscribe = on_subscribe
